@@ -3,5 +3,6 @@ var testcontroller = require('../controller/test.controller');
 
 router.get('/greetings', testcontroller.greetings);
 router.get('/testing', testcontroller.testing);
+router.get('/testing1', testcontroller.testing1);
 
 module.exports = router;

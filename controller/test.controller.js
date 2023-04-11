@@ -8,8 +8,15 @@ testing = function(req,res){
 
 }
 
+testing1 = function(req,res){
+    res.json({status:200, success:true, message: 'Welcome to Testing1'})
+
+}
+
+
 module.exports = {
     greetings,
-    testing
+    testing,
+    testing1
  
 }
