@@ -3,7 +3,13 @@ greetings = function(req,res){
 
 }
 
+testing = function(req,res){
+    res.json({status:200, success:true, message: 'Welcome to Webhooks '})
+
+}
+
 module.exports = {
     greetings,
+    testing
  
 }
